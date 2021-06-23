@@ -24,7 +24,7 @@ just follow the existing examples.
 For walmart.checkout it will take you as far as the review screen.  If
 you have autofill for credit cards it will go past review screen.  If
 not you can manually enter a CVC/CVV and it will keep spamming the
-review order button every minute.
+review order button every second.
 
 You still have to place order manually, I'm not scripting that.
 
