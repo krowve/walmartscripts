@@ -75,7 +75,18 @@ for (var i = 0; i < ITEMS.length; i++) {
             console.log(nexturl);
             setTimeout(function(){ window.location = nexturl; }, 1000);
         }
-}
+    }
+    var errortitle = document.title;
+    if (errortitle.includes("Error Page")) {
+        var URL = String(document.URL);
+        if (URL.includes("363472942")) {
+            nexturl =  "https://www.walmart.com/ip/493824815"
+        } else {
+            nexturl =  "https://www.walmart.com/ip/363472942";
+        }
+        console.log(nexturl);
+        setTimeout(function(){ window.location = nexturl; }, 1000);
+    };
 }
 
 
