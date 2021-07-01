@@ -2,9 +2,13 @@
 
 If I haven't scared you away yet go back and read the main readme.
 
-walmart.monitor will cycle through a bunch of web pages, if one comes
+walmart.monitor.gpu will cycle through a bunch of GPU web pages, if one comes
 up in stock and within price thresholds it will cart.  To start,
 enable it and visit a product page.
+
+walmart.monitor.ps5 will cycle through ps5 disc and ps5 digital, if
+one comes up in stock and within price thresholds it will cart.  To
+start, enable it and visit a product page.
 
 walmart.checkout will notice something is in cart, and go up to hiting
 the review order button.
